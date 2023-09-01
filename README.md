@@ -224,3 +224,17 @@ Project scope { "E-commerce website that also produces blogs"}
     - accent color:
 
 }
+
+- Iconography: {
+
+      ======= LIGHT MODE =======
+
+- icons
+
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-facebook-messenger"></i>
+  <i class="fa-brands fa-linkedin"></i>
+  <i class="fa-brands fa-x-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+
+}
