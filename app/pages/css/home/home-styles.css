@@ -1,0 +1,38 @@
+nav {
+    display: none;
+}
+
+.brands-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px 50px;
+      }
+
+      .brands-container img {
+        width: 80px;
+      }
+
+      .netflix {
+        width: 80px;
+      }
+
+      .airbnb {
+        width: 60px;
+      }
+
+      .apple {
+        width: 35px;
+      }
+
+      .mercedes {
+        width: 60px;
+      }
+
+      .mcdonalds {
+        width: 40px;
+      }
+
+      .cta-btn {
+        margin: 0 auto;
+      }
