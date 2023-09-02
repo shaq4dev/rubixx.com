@@ -160,25 +160,33 @@ Project scope { "E-commerce website that also produces blogs"}
 
         ======= PAYMENT PROCESSING PAGES =======
 
-        - my-cart:
+        - my-cart: --design from cart.png
 
         -------- "Navigation:
                   {Logo, Home, About, Products: (School, Office)}, Blogs, Contact Us, social{links} "
+        -------- menu:
+                 {right aligned, item counter on top menu, list of items appear with appropriate meta data, quantity selector and price attached to each item, delete button for each item in top right hand corner,                         subtotal section, shipping section with different shipping options, big checkout button, "recommended purchases" section. design from -- cart.png}
 
         -------- "footer:
                   {logo-icon, footer statement, boilerplate links, Blogs, contact form, copyright-info} "
 
-        - checkout:
+        - checkout: --design from card-info.png and order-summary.png
 
         -------- "Navigation:
                   {Logo, Home, About, Products: (School, Office)}, Blogs, Contact Us, social{links} "
+  
+        -------- left-side:
+                  {contact information, then shipping information, finally continue button that takes them to the payment section. 
+                  payment options: Apple pay and google pay button, then card-info section, and finally pay button -- design from card-info.png}
+        -------- right-side:
+                  {Order summary: list of items with their prices, "discount code" section with an "apply" button. Then subtotal, delivery fee, taxes, and total. -- design from order-summary.png}
 
         -------- "footer:
                   {logo-icon, footer statement, boilerplate links, Blogs, contact form, copyright-info} "
 
         ======= BLOG PAGES =======
 
-        - blogs:
+        - blogs: --design from blog.png
 
         -------- "Navigation:
                   {Logo, Home, About, Products: (School, Office)}, Blogs, Contact Us, social{links} "
@@ -213,15 +221,15 @@ Project scope { "E-commerce website that also produces blogs"}
 
   - colors
 
-    - dominant color:
-    - secondary color:
-    - accent color:
+    - dominant color: #dee6ec
+    - secondary color: #1E293B
+    - accent color: #1DA1F2 and #5E60C3
 
     ======= DARK MODE =======
 
-    - dominant color:
-    - secondary color:
-    - accent color:
+    - dominant color: #000
+    - secondary color: #CCC7C1
+    - accent color: #1DA1F2 and #5E60C3
 
 }
 
