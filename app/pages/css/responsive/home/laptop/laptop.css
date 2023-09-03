@@ -1,0 +1,76 @@
+@media screen and (min-width:1024px) {
+    .hero-image,
+    .rbx-image img {
+        display: block;
+        
+    }
+
+    /* hero */
+
+    .hero-title {
+        font-size: 42px;
+    }
+
+    .hero-desc {
+        font-size: 22px;
+    }
+
+    .hero-cta {
+        max-width: 150px;
+    }
+
+    /* About */
+
+    .about-title {
+        font-size: 50px;
+    }
+
+    .about-para {
+        font-size: 20px;
+    }
+
+    .about-sect {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to right, rgb(127, 189, 255), rgba(0,0,0,0));
+        margin: 0 0 0 20px;
+        padding-top: 20px;
+    }
+
+    .rbx-image img {
+        flex: 1;
+    }
+
+    .about-nfo {
+        flex: 1;
+    }
+
+    .about-image-container {
+        margin-bottom: 30px;
+    }
+
+    /* Brands */
+
+    .brands-title {
+        padding-top: 50px;
+        background: linear-gradient(to top, rgb(237, 237, 237), rgba(0,0,0,0));
+    }
+
+    .brands-container {
+        background: linear-gradient(to bottom, rgb(237, 237, 237), rgba(0, 0, 0, 0));
+    }
+
+    /* cta */
+
+    .closing h3 {
+        margin: 0 80px;
+    }
+
+    .closing-para {
+        font-size: 20px;
+    }
+
+    .cta-btn {
+        max-width: 150px;
+    }
+}

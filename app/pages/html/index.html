@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {},
-          },
-        },
-      };
-    </script>
     <link rel="stylesheet" href="../css/site-wide.css" />
     <link rel="stylesheet" href="../css/home/home-styles.css" />
+    <link
+      rel="stylesheet"
+      href="../css/responsive/home/mobile.css/mobile-sm.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../css/responsive/home/tablet.css/tablet.css"
+    />
+    <link rel="stylesheet" href="../css/responsive/home/laptop/laptop.css" />
     <title>Home Page</title>
   </head>
   <body>
@@ -82,59 +82,41 @@
       </div>
       <!-- Hero -->
 
-      <div
-        class="hero-container flex mb-8 bg-[url('../../../public/images/site-images/home/hero-home.jpg')] bg-cover shadow-xl"
-      >
-        <div class="hero-message flex-1 w-[100px] pr-32">
-          <h1
-            class="hero-title text-white mt-20 font-bold text-[60px] py-8 ml-20 leading-[1.2em]"
-          >
+      <div class="hero-container">
+        <div class="hero-message">
+          <h1 class="hero-title">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </h1>
-          <p class="hero-desc mt-5 ml-20 text-xl text-white mb-6">
+          <p class="hero-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
             iure, esse ducimus ratione a, quasi veritatis fugit ex adipisci
             tenetur libero. Dolore quis nobis magnam?
           </p>
 
-          <button
-            class="hero-cta text-white my-4 mt-5 mb-20 ml-20 bg-black px-8 py-1.5 rounded hover:bg-white hover:text-black transition-all"
-          >
-            Visit
-          </button>
+          <button class="hero-cta">Visit</button>
         </div>
 
         <!-- hero image -->
 
-        <div class="hero-image flex-1">
-          <!-- <img
-            src="../../../public/images/site-images/home/hero-rubiks.png"
-            alt="hero-image"
-          /> -->
-        </div>
+        <div class="hero-image flex-1"></div>
 
         <!-- end of hero -->
       </div>
 
       <!-- about us snippet -->
 
-      <div class="about-snippet mx-8 bg-gradient-to-r from-blue-400">
-        <h1
-          class="about-title text-center mt-12 mb-24 text-[50px] text-slate-800"
-        >
-          What we do
-        </h1>
+      <div class="about-snippet">
+        <h1 class="about-title">What we do</h1>
 
-        <div class="about-sect flex">
-          <div class="rbx-image flex-1">
+        <div class="about-sect">
+          <div class="rbx-image">
             <img
               src="../../../public/images/site-images/home/hero-rubiks.png"
               alt="rbx-image"
-              class="absolute top-[780px] left-[130px]"
             />
           </div>
-          <div class="about-nfo flex flex-col flex-1">
-            <p class="about-para text-left text-xl">
+          <div class="about-nfo">
+            <p class="about-para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequatur nulla laborum ratione debitis nihil aliquid adipisci
               magnam, impedit doloremque, quae ipsa? Quaerat, eos. Asperiores
@@ -143,20 +125,14 @@
               Repudiandae sint deserunt hic cupiditate suscipit doloribus eius
               quisquam similique officia?
             </p>
-            <div class="about-image-container mb-12 pt-8 flex">
-              <div
-                class="img-1 w-[150px] h-[150px] bg-[url('../../../public/images/site-images/home/about-pen.jpg')] bg-cover bg-center"
-              >
+            <div class="about-image-container">
+              <div class="img-1">
                 <h2 class="office"></h2>
               </div>
-              <div
-                class="img-2 w-[150px] h-[150px] bg-[url('../../../public/images/site-images/home/about-bag.jpg')] bg-cover bg-center"
-              >
+              <div class="img-2">
                 <h2 class="school"></h2>
               </div>
-              <div
-                class="img-3 w-[150px] h-[150px] bg-[url('../../../public/images/site-images/home/about-team.jpg')] bg-cover bg-center"
-              >
+              <div class="img-3">
                 <h2 class="our-team"></h2>
               </div>
             </div>
@@ -166,11 +142,9 @@
 
       <!-- companies that trust us  -->
 
-      <div class="brands-group bg-gradient-to-t from-slate-100">
+      <div class="brands-group">
         <div class="brands-title">
-          <h1 class="text-slate-800 text-center text-[50px] py-4 mt-24 pb-20">
-            Companies that trust us
-          </h1>
+          <h1>Companies that trust us</h1>
         </div>
 
         <div class="brands-container">
@@ -227,25 +201,15 @@
       </div>
 
       <!-- Call to action -->
-      <div
-        class="cta pt-20 pb-12 bg-gradient-to-b from-slate-100 flex flex-col"
-      >
+      <div class="cta">
         <div class="closing">
-          <h3
-            class="font-bold text-center text-[40px] italic p-16 text-slate-800"
-          >
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
-          </h3>
-          <p class="closing-para text-center text-xl">
+          <h3>"Lorem ipsum dolor sit, amet consectetur adipisicing elit."</h3>
+          <p class="closing-para">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
             alias.
           </p>
         </div>
-        <button
-          class="cta-btn text-white my-4 mt-8 mb-2 bg-rose-500 px-8 py-1.5 rounded hover:bg-rose-600 transition-all"
-        >
-          Shop
-        </button>
+        <button class="cta-btn">Shop</button>
       </div>
     </div>
     <script

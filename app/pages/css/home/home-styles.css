@@ -2,37 +2,81 @@ nav {
     display: none;
 }
 
-.brands-container {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 20px 50px;
-      }
 
-      .brands-container img {
-        width: 80px;
-      }
+.brands-container img {
+    width: 80px;
+}
 
-      .netflix {
-        width: 80px;
-      }
+.netflix {
+    width: 80px;
+}
 
-      .airbnb {
-        width: 60px;
-      }
+    .airbnb {
+    width: 60px;
+}
 
-      .apple {
-        width: 35px;
-      }
+.apple {
+    width: 35px;
+}
 
-      .mercedes {
-        width: 60px;
-      }
+.mercedes {
+    width: 60px;
+}
 
-      .mcdonalds {
-        width: 40px;
-      }
+.mcdonalds {
+    width: 40px;
+}
 
-      .cta-btn {
-        margin: 0 auto;
-      }
+.cta-btn {
+    margin: 0 auto;
+}
+
+/* rbx animation */
+
+.rbx-image img {
+  animation: float 2s infinite alternate;
+}
+
+@keyframes float {
+  from {transform: translateY(0)}
+  to {transform: translateY(-10px)}
+}
+
+/* @media screen and (max-width: 640px){
+  .hero-container {
+    background-size: cover;
+  }
+
+  .rbx-image img {
+    display: none;
+  }
+
+  .hero-container {
+    width: 100vw;
+    background-image: contain;
+    background-position-x: left;
+  }
+
+  .hero-message {
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 24px;
+    width: 250px;
+  }
+
+  .hero-desc {
+    margin-top: -12px;
+    font-size: 16px;
+    width: 280px;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .hero-cta {
+    margin-top: -12px;
+  }
+} */

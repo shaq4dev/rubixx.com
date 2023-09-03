@@ -1,0 +1,61 @@
+@media screen and (min-width: 768px) {
+    .hero-container {
+        padding: 70px 0;
+    }
+    
+    .hero-title {
+
+        font-size: 35px;
+        color: white;
+        padding: 100px 28px 20px 28px;
+    }
+
+    .hero-desc {
+        text-align: center;
+        color: white;
+        padding: 0 28px 20px 28px;
+        font-size: 18px;
+    }
+
+    .hero-cta {
+        margin: 20px auto 40px auto;
+    }
+
+    /* about */
+
+    .about-title {
+        font-size: 50px;
+    }
+
+    .about-para {
+        font-size: 18px;
+    }
+
+    .about-nfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-image-container {
+        justify-content: center;
+    }
+
+    .img-2 {
+        margin: 0 14px;
+    }
+
+    /* Brands */
+
+    .brands-title h1 {
+        font-size: 50px;
+        padding-bottom: 45px;
+    }
+
+    .closing h3 {
+        font-size: 50px;
+    }
+
+    .closing-para {
+        font-size: 20px;
+    }
+}

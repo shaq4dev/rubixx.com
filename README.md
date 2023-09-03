@@ -174,9 +174,9 @@ Project scope { "E-commerce website that also produces blogs"}
 
         -------- "Navigation:
                   {Logo, Home, About, Products: (School, Office)}, Blogs, Contact Us, social{links} "
-  
+
         -------- left-side:
-                  {contact information, then shipping information, finally continue button that takes them to the payment section. 
+                  {contact information, then shipping information, finally continue button that takes them to the payment section.
                   payment options: Apple pay and google pay button, then card-info section, and finally pay button -- design from card-info.png}
         -------- right-side:
                   {Order summary: list of items with their prices, "discount code" section with an "apply" button. Then subtotal, delivery fee, taxes, and total. -- design from order-summary.png}
