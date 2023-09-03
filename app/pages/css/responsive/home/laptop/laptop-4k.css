@@ -1,0 +1,99 @@
+@media screen and (min-width: 2560px) {
+    .hero-container {
+        padding: 300px 0;
+    }
+
+    .hero-title {
+        font-size: 90px;
+    }
+
+    .hero-message {
+        position: relative;
+        height: 800px;
+        width: 50vw;
+    }
+
+    .hero-desc {
+        margin-left: 50px;
+        font-size: 40px;
+        padding-top: 30px;
+    }
+
+    .hero-cta {
+        font-size: 30px;
+        position: absolute;
+        bottom: 30px;
+        left: 80px;
+        height: 70px;
+    }
+
+    /* about */
+
+    .about-sect {
+        height: 1000px;
+        position: relative;
+    }
+
+    .about-title {
+        font-size: 100px;
+        padding-top: 110px;
+        padding-bottom: 90px;
+    }
+
+    .about-para {
+        font-size: 45px;
+        top: 100px;
+    }
+
+    .about-image-container {
+        right: 250px;
+    }
+
+    .img-1, 
+    .img-2, 
+    .img-3 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .rbx-image img {
+        position: absolute;
+        width: 1100px;
+        top: 0;
+    }
+
+    /* brands */
+
+    .brands-title h1 {
+        font-size: 90px;
+    }
+
+    .brands-title {
+        padding-top: 210px;
+        padding-bottom: 90px;
+    }
+
+    .__branded {
+        width: 120px;
+    }
+
+    /* cta */
+
+    .closing h3 {
+        padding-top: 80px;
+        padding-bottom: 30px;
+        font-size: 100px;
+    }
+
+    .closing-para {
+        font-size: 45px;
+    }
+
+    .cta-btn {
+        width: 200px;
+        font-size: 30px;
+        height: 65px;
+        margin-top: 50px;
+    }
+
+}

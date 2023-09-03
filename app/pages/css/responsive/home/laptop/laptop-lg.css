@@ -1,0 +1,75 @@
+@media screen and (min-width: 1440px) {
+
+    .hero-container {
+        padding: 100px 0;
+    }
+
+    .hero-message {
+        width: 50vw;
+        display: flex;
+    }
+
+    .hero-title {
+        font-size: 50px;
+        width: 50vw;
+    }
+
+    .hero-desc {
+        font-size: 24px;
+        width: 50vw;
+        text-align: left;
+    }
+
+    .hero-cta {
+        font-size: 24px;
+        max-width: 150px;
+        height: 45px;
+    }
+
+    /* about us */
+
+    .about-sect {
+        height: 500px;
+        align-items: center;
+    }
+
+    .about-nfo {
+        position: relative;
+        height: 100%;
+    }
+
+    .about-title {
+        font-size: 60px;
+        padding-top: 90px;
+        padding-bottom: 70px;
+    }
+
+    .about-para {
+        font-size: 24px;
+        width: 50vw;
+        position: absolute;
+        right: 60px;
+        top: 0px;
+    }
+
+    .about-image-container {
+        position: absolute;
+        right: 168px;
+        bottom: 10px;
+    }
+
+    .rbx-image img {
+        position: absolute;
+        width: 550px;
+        top: 960px;
+        left: 80px;
+    }
+
+    /* brands */ 
+
+    .brands-title {
+        padding-top: 130px;
+    }
+
+
+}

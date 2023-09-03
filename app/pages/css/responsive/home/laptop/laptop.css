@@ -16,7 +16,7 @@
     }
 
     .hero-cta {
-        max-width: 150px;
+        width: 150px;
     }
 
     /* About */
@@ -71,6 +71,6 @@
     }
 
     .cta-btn {
-        max-width: 150px;
+        width: 150px;
     }
 }
